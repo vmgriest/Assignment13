@@ -63,7 +63,7 @@ public class App extends Application
                     baseValue = fromValue / 1000;
                     break;
                 default:
-                    toField.setText("Invalid unit");
+                    toField.setText("Invalid");
                     return;
             }
             String toUnit = toField.getText().substring(toField.getText().length() - 2);
@@ -83,13 +83,13 @@ public class App extends Application
                     toValue = baseValue * 39.3701;
                     break;
                 default:
-                    toField.setText("Invalid unit");
+                    toField.setText("Invalid");
                     return;
             }
             toField.setText(String.format("%.2f", toValue) + " " + toUnit);
         } catch (NumberFormatException | StringIndexOutOfBoundsException e) 
         {
-            toField.setText("Invalid input");
+            toField.setText("Invalid");
         }
     }
 
