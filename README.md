@@ -2,7 +2,7 @@
 Welcome to the Metric Converter App
 
 First in the From box input the number then the unit (only kilograms, grams, kilometers, or milimeters)
-  Examples of valid inputs: # kg" # gr, # km, # mm, #kg, #gr, #km, #mm 
+  Examples of valid inputs: # kg # gr, # km, # mm, #kg, #gr, #km, #mm 
   (kg = kilograms, gr = grams, km = kilometers, mm = milimeters)
   
 Next in the To box input only the unit you want to convert to (only pounds, ounces, miles, or inches)
