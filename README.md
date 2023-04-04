@@ -15,4 +15,4 @@ Warnings:
   This metric converter can only convert # kg to lb, # gr to oz, # km to mi, or # mm to in.
   If you dont put in the right units for each conversion and click the Convert button it will say "Invalid" in the To box.
   If you dont put anything in the either of the boxes it will say "Invalid" when clickng the Convert button.
-  Before you input another unit in the To box clear the all of the text and then input the unit.
+  Before you input another unit in the To box clear the To box and then input the unit.
